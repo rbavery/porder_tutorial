@@ -5,4 +5,4 @@
     - most OS's come with python nowadays and you can use python 2 for this tutorial. If you don't have a package you can install it with `pip install package-name`. You can check if you have python by opening a terminal and running `python`
 3. Download this repository and notebook with the terminal command: `git clone https://github.com/rbavery/porder_tutorial.git`
 4. `cd porder_tutorial`
-5. `jupyter lab` or `jupyter notebook`. If you don't have jupyter installed, install it with `pip install jupyter`
+5. `jupyter lab` or `jupyter notebook`. If you don't have jupyter lab or jupyter notebook installed, install with `pip install jupyterlab`
