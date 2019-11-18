@@ -1,0 +1,4 @@
+data/*.tif
+data/*.xml
+data/*.json
+data/*.csv
