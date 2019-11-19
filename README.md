@@ -7,11 +7,13 @@
 4. `cd porder_tutorial`
 5. `jupyter lab` or `jupyter notebook`. If you don't have jupyter lab or jupyter notebook installed, install with `pip install jupyterlab`
 
-Note: this tutorial was tested succesfully with python 2.7.15. There's a small bug in porder that causes some commands to not work in python 3. This may get fixed before Thursday, but if you don't have python 2, follow these instructions after following the anaconda python instructions linked above:
+
+
+Note: this tutorial was tested succesfully with python 2.7.15. There's a small bug in porder that causes running `porder` with no flags or subcommands to error. But running `porder -h` or any other flags and subcommands works as expected. If you'd like to use a python 2 environment for the tutorial you can follow these instructions after following the anaconda python instructions linked above:
 
 1. `conda create -n py3 python=3.6` 
 2. `conda activate py3`
 3. `pip install porder datetimerange ipykernel pandas`
 
-This will set you up with a separate installation of python and porder that works. You can activate in the shell with `conda activate` and by installing `ipykernel`, you can select to use this installation from jupyter notebook/lab.
+This will set you up with a separate installation/environment of python and porder, where running just `porder` works. You can activate the python environment in the shell with `conda activate` and by installing `ipykernel`, you can select to use this python environment from jupyter notebook/lab.
 
