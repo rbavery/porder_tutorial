@@ -1,0 +1,12 @@
+name: porder_tutorial
+channels:
+  - conda-forge
+dependencies:
+  - pandas # reading in metadata as dataframe (table with rows and columns)
+  - xarray>=0.14.1 # for loading in image data and metadata, plotting
+  - rioxarray
+  - matplotlib
+  - jupyterlab
+  - pip:
+        - porder 
+        - datetimerange
