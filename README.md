@@ -5,7 +5,8 @@
 4. `cd porder_tutorial`
 5. `conda env create -f environment.yml -n porder_tutorial`
 6. `conda activate porder_tutorial`
-7. `jupyter lab`
+7. `planet init`
+8. `jupyter lab`
 
 
 The `conda create` step will set you up with a separate installation/environment of python, porder, and other useful packages for this tutorial. We activate the python environment in the shell with `conda activate`. The environment also contains a speparate installation of jupyter lab, the code editor we will use to go through the tutorial. We start this from the terminal with `jupyter lab`
