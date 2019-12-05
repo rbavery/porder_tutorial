@@ -1,4 +1,9 @@
-# Tutorial Setup
+# Tutorial Setup with Binder (less setup needed, doesn't run on your own machine)
+1. Click the link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rbavery/porder_tutorial/master?filepath=https%3A%2F%2Fgithub.com%2Frbavery%2Fporder_tutorial%2Fblob%2Fmaster%2Fporder_tutorial.ipynb)
+2. You'll be able to access the tutorial through your browser after a bit of setup. You'll then authenticate your Planet account using the `planet init` command. You can open a Terminal in the jupyter launcher that opens from the link you just clicked on and then run `planet init`. You'll need your username and password.
+3. Open the notebook and you are ready to go! This method gets you up and running using porder quickly but you can't use it as a day to day work environment, see the setup guide below for your own machine.
+
+# Tutorial Setup (no Binder, using your own machine)
 1. Install git following instructions for your operating system: https://carpentries.github.io/workshop-template/#git
 2. Install the Anaconda distribution of python 3.7, following the instructions for your operating system (make sure to check the box that says add Anaconda to system path): https://carpentries.github.io/workshop-template/#python
 3. Download this repository and notebook with the terminal command: `git clone https://github.com/rbavery/porder_tutorial.git`
@@ -8,6 +13,7 @@
 7. `planet init`
 8. `jupyter lab`
 
+After opening jupyter lab, open the .ipynb file, you're ready to go through the tutorial on your own machine. You can run through all these commands with your own geojson to dowload imagery for your area of interest, or use the San Pedro geojson provided in this repo.
 
 The `conda create` step will set you up with a separate installation/environment of python, porder, and other useful packages for this tutorial. We activate the python environment in the shell with `conda activate`. The environment also contains a speparate installation of jupyter lab, the code editor we will use to go through the tutorial. We start this from the terminal with `jupyter lab`
 
@@ -26,4 +32,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
-If you don't see something like the above (Anaconda, Inc should be there) then you probably need to install the Anaconda distribution, see above.
+If you don't see something like the above (Anaconda, Inc should be there) then you probably need to install the Anaconda distribution, see above. Email ravery@ucsb.edu if you have questions.
