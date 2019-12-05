@@ -3,7 +3,7 @@
 2. You'll be able to access the tutorial through your browser after a bit of setup. You'll then authenticate your Planet account using the `planet init` command. You can open a Terminal in the jupyter launcher that opens from the link you just clicked on and then run `planet init`. You'll need your username and password.
 3. Open the notebook and you are ready to go! This method gets you up and running using porder quickly but you can't use it as a day to day work environment, see the setup guide below for your own machine.
 
-# Tutorial Setup (no Binder, using your own machine)
+# Tutorial Setup (using your own machine)
 1. Install git following instructions for your operating system: https://carpentries.github.io/workshop-template/#git
 2. Install the Anaconda distribution of python 3.7, following the instructions for your operating system (make sure to check the box that says add Anaconda to system path): https://carpentries.github.io/workshop-template/#python
 3. Download this repository and notebook with the terminal command: `git clone https://github.com/rbavery/porder_tutorial.git`
