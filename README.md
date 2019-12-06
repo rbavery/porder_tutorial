@@ -1,7 +1,11 @@
 # Tutorial Setup with Binder (less setup needed, doesn't run on your own machine)
 1. Click the link: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rbavery/porder_tutorial/master)
 2. You'll be able to access the tutorial through your browser after a bit of setup. You'll then authenticate your Planet account using the `planet init` command. You can open a Terminal in the jupyter launcher that opens from the link you just clicked on and then run `planet init`. You'll need your username and password.
-3. Open the notebook and you are ready to go! This method gets you up and running using porder quickly but you can't use it as a day to day work environment, see the setup guide below for your own machine.
+3. Open the notebook (porder_tutorial.ipynb) and you are ready to go! This method gets you up and running using porder quickly but you can't use it as a day to day work environment, see the other setup guide for your own machine.
+
+The animation below shows you how to authenticate with `planet init` on Binder
+
+![Alt Text](./planet_init.gif)
 
 # Tutorial Setup (using your own machine)
 1. Install git following instructions for your operating system: https://carpentries.github.io/workshop-template/#git
@@ -32,4 +36,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
-If you don't see something like the above (Anaconda, Inc should be there) then you probably need to install the Anaconda distribution, see above. Email ravery@ucsb.edu if you have questions.
+If you don't see something like the above (Anaconda, Inc should be there) then you probably need to install the Anaconda distribution, see above. Email ravery@ucsb.edu if you have questions. Installing things is often more than half the battle!
